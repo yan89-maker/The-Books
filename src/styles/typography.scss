@@ -1,0 +1,60 @@
+%title{
+font-family: var(--font-primary);
+font-weight: 700;
+line-height: 1.4;
+color: var(--color-black); 
+&.white{
+    color: var(--color-white); 
+}
+}
+
+// .title1{
+    // @extend %title; 
+    // font-size: 2.5rem;
+// }
+
+.title1{
+    @extend %title; 
+    font-size: clamp(2rem, 5vw, 2.5rem); 
+}
+//Vamos criar um clamp para termos responsividade no title1.  
+
+
+.title2{
+    @extend %title; 
+    font-size: 1rem;
+}
+//  Dois estilos de Títulos vindo do figma com pesos diferentes 
+
+// Vamos utilizar um recurso de reproveitamento do SCSS para economizar código.
+// Cria SCSS que pode ser herdado ou extendido em outras classes  
+
+
+%text{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-black);
+    &.white{
+        color: var(--color-white); 
+    }
+}
+
+.paragraph{
+    @extend %text; 
+
+    font-size: 1rem;
+    
+    &.bold, strong{
+        font-weight: 700;
+    }
+}
+
+.label{
+    @extend %text; 
+
+    font-size: .875rem;
+}
+
+
+// Não veio no styleguide, porém temos que criar também de olho. 

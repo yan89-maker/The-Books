@@ -1,0 +1,21 @@
+.bookCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    // Quando não poder ficar mais em linha, vou dar um flex-wrap: wrap. Motivos de responsividade também. 
+    box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.03);
+    border-left: 4px solid var(--color-primary);
+    padding: 2.5rem; 
+
+    &> div{
+            min-width: clamp(0px,100%,300px);
+        // div filha direta do bookCard 
+    }
+}
+
+// estamos criando a estilização do bookCard como no styleguide. 
+
+
+// vamos implementar uma largura mínima responsiva com o nosso amigo clamp. 

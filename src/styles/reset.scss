@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    // Max-width 100 para que não estore a largura da minha tela. 
+}
+
+button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+input{
+    background: transparent;
+    border: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+// Ponto positivo do SASS - ele aceita tudo que já conhecemos do CSS. 

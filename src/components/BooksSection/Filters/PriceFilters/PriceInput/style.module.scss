@@ -1,0 +1,16 @@
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: .8125rem;
+    
+    input{
+        width: 100%;
+        // Seleciono o input e colocamos para que seja 100% responsivo. 
+        max-width: 190px;
+        // para que nunca supere 190px. 
+    }
+}
+
+
+
+// Vamos estilizar a Div do PriceInput. 

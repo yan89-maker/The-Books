@@ -1,0 +1,9 @@
+.filterBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    //  align-items passa a ser horizontal ao inves de vertical. 
+    gap: 2.8125rem;
+}
+
+//  Criamos esse filterBox e aplicamos na div para espaçar todos os filtros e poder manipular com o flexBox. 

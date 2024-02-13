@@ -1,0 +1,15 @@
+.flexBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // Para jogar o logo em um lado, e a mensagem do outro lado. 
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+
+.footer{
+    padding: .625rem 0; 
+    background: var(--color-primary);
+}
+
+// Criamos mais uma classe .footer para colocar o respectivo fundo no footer. 
